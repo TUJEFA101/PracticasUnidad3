@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		911989A71EB2510200B3E858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911989A61EB2510200B3E858 /* AppDelegate.swift */; };
+		911989A91EB2510200B3E858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911989A81EB2510200B3E858 /* ViewController.swift */; };
+		911989AC1EB2510200B3E858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911989AA1EB2510200B3E858 /* Main.storyboard */; };
+		911989AE1EB2510200B3E858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911989AD1EB2510200B3E858 /* Assets.xcassets */; };
+		911989B11EB2510200B3E858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911989AF1EB2510200B3E858 /* LaunchScreen.storyboard */; };
+		911989BC1EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911989BB1EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERTests.swift */; };
+		911989C71EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911989C61EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		911989B81EB2510300B3E858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9119899B1EB2510200B3E858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911989A21EB2510200B3E858;
+			remoteInfo = 3RA_EVA_1_TAB_CONTROLLER;
+		};
+		911989C31EB2510300B3E858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9119899B1EB2510200B3E858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911989A21EB2510200B3E858;
+			remoteInfo = 3RA_EVA_1_TAB_CONTROLLER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		911989A31EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3RA_EVA_1_TAB_CONTROLLER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		911989A61EB2510200B3E858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		911989A81EB2510200B3E858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		911989AB1EB2510200B3E858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		911989AD1EB2510200B3E858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		911989B01EB2510200B3E858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		911989B21EB2510200B3E858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911989B71EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3RA_EVA_1_TAB_CONTROLLERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911989BB1EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _RA_EVA_1_TAB_CONTROLLERTests.swift; sourceTree = "<group>"; };
+		911989BD1EB2510300B3E858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911989C21EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3RA_EVA_1_TAB_CONTROLLERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911989C61EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _RA_EVA_1_TAB_CONTROLLERUITests.swift; sourceTree = "<group>"; };
+		911989C81EB2510300B3E858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		911989A01EB2510200B3E858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911989B41EB2510300B3E858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911989BF1EB2510300B3E858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9119899A1EB2510200B3E858 = {
+			isa = PBXGroup;
+			children = (
+				911989A51EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER */,
+				911989BA1EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERTests */,
+				911989C51EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERUITests */,
+				911989A41EB2510200B3E858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		911989A41EB2510200B3E858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				911989A31EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER.app */,
+				911989B71EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERTests.xctest */,
+				911989C21EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		911989A51EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				911989A61EB2510200B3E858 /* AppDelegate.swift */,
+				911989A81EB2510200B3E858 /* ViewController.swift */,
+				911989AA1EB2510200B3E858 /* Main.storyboard */,
+				911989AD1EB2510200B3E858 /* Assets.xcassets */,
+				911989AF1EB2510200B3E858 /* LaunchScreen.storyboard */,
+				911989B21EB2510200B3E858 /* Info.plist */,
+			);
+			path = 3RA_EVA_1_TAB_CONTROLLER;
+			sourceTree = "<group>";
+		};
+		911989BA1EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERTests */ = {
+			isa = PBXGroup;
+			children = (
+				911989BB1EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERTests.swift */,
+				911989BD1EB2510300B3E858 /* Info.plist */,
+			);
+			path = 3RA_EVA_1_TAB_CONTROLLERTests;
+			sourceTree = "<group>";
+		};
+		911989C51EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				911989C61EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERUITests.swift */,
+				911989C81EB2510300B3E858 /* Info.plist */,
+			);
+			path = 3RA_EVA_1_TAB_CONTROLLERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		911989A21EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911989CB1EB2510300B3E858 /* Build configuration list for PBXNativeTarget "3RA_EVA_1_TAB_CONTROLLER" */;
+			buildPhases = (
+				9119899F1EB2510200B3E858 /* Sources */,
+				911989A01EB2510200B3E858 /* Frameworks */,
+				911989A11EB2510200B3E858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3RA_EVA_1_TAB_CONTROLLER;
+			productName = 3RA_EVA_1_TAB_CONTROLLER;
+			productReference = 911989A31EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		911989B61EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911989CE1EB2510300B3E858 /* Build configuration list for PBXNativeTarget "3RA_EVA_1_TAB_CONTROLLERTests" */;
+			buildPhases = (
+				911989B31EB2510300B3E858 /* Sources */,
+				911989B41EB2510300B3E858 /* Frameworks */,
+				911989B51EB2510300B3E858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911989B91EB2510300B3E858 /* PBXTargetDependency */,
+			);
+			name = 3RA_EVA_1_TAB_CONTROLLERTests;
+			productName = 3RA_EVA_1_TAB_CONTROLLERTests;
+			productReference = 911989B71EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		911989C11EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911989D11EB2510300B3E858 /* Build configuration list for PBXNativeTarget "3RA_EVA_1_TAB_CONTROLLERUITests" */;
+			buildPhases = (
+				911989BE1EB2510300B3E858 /* Sources */,
+				911989BF1EB2510300B3E858 /* Frameworks */,
+				911989C01EB2510300B3E858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911989C41EB2510300B3E858 /* PBXTargetDependency */,
+			);
+			name = 3RA_EVA_1_TAB_CONTROLLERUITests;
+			productName = 3RA_EVA_1_TAB_CONTROLLERUITests;
+			productReference = 911989C21EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9119899B1EB2510200B3E858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "LUIS FERNANDO";
+				TargetAttributes = {
+					911989A21EB2510200B3E858 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					911989B61EB2510300B3E858 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 911989A21EB2510200B3E858;
+					};
+					911989C11EB2510300B3E858 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 911989A21EB2510200B3E858;
+					};
+				};
+			};
+			buildConfigurationList = 9119899E1EB2510200B3E858 /* Build configuration list for PBXProject "3RA_EVA_1_TAB_CONTROLLER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9119899A1EB2510200B3E858;
+			productRefGroup = 911989A41EB2510200B3E858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				911989A21EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER */,
+				911989B61EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERTests */,
+				911989C11EB2510300B3E858 /* 3RA_EVA_1_TAB_CONTROLLERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		911989A11EB2510200B3E858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911989B11EB2510200B3E858 /* LaunchScreen.storyboard in Resources */,
+				911989AE1EB2510200B3E858 /* Assets.xcassets in Resources */,
+				911989AC1EB2510200B3E858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911989B51EB2510300B3E858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911989C01EB2510300B3E858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9119899F1EB2510200B3E858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911989A91EB2510200B3E858 /* ViewController.swift in Sources */,
+				911989A71EB2510200B3E858 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911989B31EB2510300B3E858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911989BC1EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911989BE1EB2510300B3E858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911989C71EB2510300B3E858 /* _RA_EVA_1_TAB_CONTROLLERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		911989B91EB2510300B3E858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 911989A21EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER */;
+			targetProxy = 911989B81EB2510300B3E858 /* PBXContainerItemProxy */;
+		};
+		911989C41EB2510300B3E858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 911989A21EB2510200B3E858 /* 3RA_EVA_1_TAB_CONTROLLER */;
+			targetProxy = 911989C31EB2510300B3E858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		911989AA1EB2510200B3E858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911989AB1EB2510200B3E858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		911989AF1EB2510200B3E858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911989B01EB2510200B3E858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		911989C91EB2510300B3E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		911989CA1EB2510300B3E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		911989CC1EB2510300B3E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3RA_EVA_1_TAB_CONTROLLER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-1-TAB-CONTROLLER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		911989CD1EB2510300B3E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3RA_EVA_1_TAB_CONTROLLER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-1-TAB-CONTROLLER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		911989CF1EB2510300B3E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3RA_EVA_1_TAB_CONTROLLERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-1-TAB-CONTROLLERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3RA_EVA_1_TAB_CONTROLLER.app/3RA_EVA_1_TAB_CONTROLLER";
+			};
+			name = Debug;
+		};
+		911989D01EB2510300B3E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3RA_EVA_1_TAB_CONTROLLERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-1-TAB-CONTROLLERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3RA_EVA_1_TAB_CONTROLLER.app/3RA_EVA_1_TAB_CONTROLLER";
+			};
+			name = Release;
+		};
+		911989D21EB2510300B3E858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3RA_EVA_1_TAB_CONTROLLERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-1-TAB-CONTROLLERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3RA_EVA_1_TAB_CONTROLLER;
+			};
+			name = Debug;
+		};
+		911989D31EB2510300B3E858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3RA_EVA_1_TAB_CONTROLLERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-1-TAB-CONTROLLERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3RA_EVA_1_TAB_CONTROLLER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9119899E1EB2510200B3E858 /* Build configuration list for PBXProject "3RA_EVA_1_TAB_CONTROLLER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911989C91EB2510300B3E858 /* Debug */,
+				911989CA1EB2510300B3E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911989CB1EB2510300B3E858 /* Build configuration list for PBXNativeTarget "3RA_EVA_1_TAB_CONTROLLER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911989CC1EB2510300B3E858 /* Debug */,
+				911989CD1EB2510300B3E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		911989CE1EB2510300B3E858 /* Build configuration list for PBXNativeTarget "3RA_EVA_1_TAB_CONTROLLERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911989CF1EB2510300B3E858 /* Debug */,
+				911989D01EB2510300B3E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		911989D11EB2510300B3E858 /* Build configuration list for PBXNativeTarget "3RA_EVA_1_TAB_CONTROLLERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911989D21EB2510300B3E858 /* Debug */,
+				911989D31EB2510300B3E858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9119899B1EB2510200B3E858 /* Project object */;
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zzo-Yr-29o">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--You here-->
+        <scene sceneID="tz6-YQ-We1">
+            <objects>
+                <viewController id="s4w-xH-Q7T" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6dZ-BV-F9N"/>
+                        <viewControllerLayoutGuide type="bottom" id="ihw-VX-Fh0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZNp-gD-NTL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.56935134913737051" green="1" blue="0.10622610907350005" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="You here" image="youarehere" badgeValue="Here" id="8JU-Rb-Csp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XON-lx-rSR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="701" y="755"/>
+        </scene>
+        <!--Android-->
+        <scene sceneID="NsG-dS-Nd5">
+            <objects>
+                <viewController id="PnA-YL-H2k" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qrk-n3-eAv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ra6-wv-xdS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsZ-7b-xtc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.38422136330000001" blue="0.3230834212" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Android" image="header_android-icons" badgeValue="Android" selectedImage="header_android-icons" id="7m7-XZ-Pib"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oxi-C4-8vx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="1424"/>
+        </scene>
+        <!--Ads-->
+        <scene sceneID="g14-Ga-DeU">
+            <objects>
+                <viewController id="otc-gf-2Ya" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ut7-YW-rKL"/>
+                        <viewControllerLayoutGuide type="bottom" id="kNe-nZ-3au"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TNy-1q-8p8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.26148672848284493" green="1" blue="0.87563836290317099" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ads" image="ads" badgeValue="Ads" selectedImage="ads" id="Mj8-n3-9wF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8K-f9-iDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="701" y="0.0"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aWU-xQ-i8l">
+            <objects>
+                <tabBarController id="zzo-Yr-29o" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="p0Q-6n-H2U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="otc-gf-2Ya" kind="relationship" relationship="viewControllers" id="QLg-O7-gUa"/>
+                        <segue destination="gf5-HN-6mA" kind="relationship" relationship="viewControllers" id="JxZ-Mw-qsI"/>
+                        <segue destination="s4w-xH-Q7T" kind="relationship" relationship="viewControllers" id="1wa-vZ-MpR"/>
+                        <segue destination="PnA-YL-H2k" kind="relationship" relationship="viewControllers" id="enN-hv-vTF"/>
+                        <segue destination="Qdf-lt-cgT" kind="relationship" relationship="viewControllers" id="OhV-Nw-t0R"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hRc-Mo-TV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119" y="287"/>
+        </scene>
+        <!--Basket-->
+        <scene sceneID="HZK-9I-Rzj">
+            <objects>
+                <viewController id="gf5-HN-6mA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tnR-Qj-Y0x"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Cf-Pi-ayi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kbr-pq-Inu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.58675533508284361" green="0.29325329857342974" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Basket" image="ico_m_basket" badgeValue="Basket" id="U1J-jf-c58"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ojc-br-1Qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-683" y="945"/>
+        </scene>
+        <!--Rating-->
+        <scene sceneID="jyu-iO-mno">
+            <objects>
+                <viewController id="Qdf-lt-cgT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6gc-JV-dvx"/>
+                        <viewControllerLayoutGuide type="bottom" id="7IV-Ha-Hdw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qyU-nb-wRP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.33228347000000003" green="0.68768028849999996" blue="0.29542776990000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rating" image="ico_rating" badgeValue="Rate" selectedImage="ico_rating" id="gPA-Qv-sCq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a6a-Ca-bwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-491" y="1695"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ads" width="24" height="24"/>
+        <image name="header_android-icons" width="24" height="24"/>
+        <image name="ico_m_basket" width="24" height="24"/>
+        <image name="ico_rating" width="24" height="24"/>
+        <image name="youarehere" width="24" height="24"/>
+    </resources>
+</document>
