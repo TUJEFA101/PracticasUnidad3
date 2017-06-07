@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91EFC23D1EBB8F1D006FC276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFC23C1EBB8F1D006FC276 /* AppDelegate.swift */; };
+		91EFC23F1EBB8F1D006FC276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFC23E1EBB8F1D006FC276 /* ViewController.swift */; };
+		91EFC2421EBB8F1D006FC276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EFC2401EBB8F1D006FC276 /* Main.storyboard */; };
+		91EFC2441EBB8F1D006FC276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EFC2431EBB8F1D006FC276 /* Assets.xcassets */; };
+		91EFC2471EBB8F1D006FC276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EFC2451EBB8F1D006FC276 /* LaunchScreen.storyboard */; };
+		91EFC2521EBB8F1D006FC276 /* _RA_EVA_4_SWITCHTINGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFC2511EBB8F1D006FC276 /* _RA_EVA_4_SWITCHTINGTests.swift */; };
+		91EFC25D1EBB8F1E006FC276 /* _RA_EVA_4_SWITCHTINGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFC25C1EBB8F1E006FC276 /* _RA_EVA_4_SWITCHTINGUITests.swift */; };
+		91EFC26B1EBB9025006FC276 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFC26A1EBB9025006FC276 /* YellowViewController.swift */; };
+		91EFC26D1EBB9052006FC276 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFC26C1EBB9052006FC276 /* BlueViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91EFC24E1EBB8F1D006FC276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFC2311EBB8F1D006FC276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFC2381EBB8F1D006FC276;
+			remoteInfo = 3RA_EVA_4_SWITCHTING;
+		};
+		91EFC2591EBB8F1E006FC276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91EFC2311EBB8F1D006FC276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EFC2381EBB8F1D006FC276;
+			remoteInfo = 3RA_EVA_4_SWITCHTING;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91EFC2391EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3RA_EVA_4_SWITCHTING.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFC23C1EBB8F1D006FC276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91EFC23E1EBB8F1D006FC276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91EFC2411EBB8F1D006FC276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91EFC2431EBB8F1D006FC276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91EFC2461EBB8F1D006FC276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91EFC2481EBB8F1D006FC276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EFC24D1EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTINGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3RA_EVA_4_SWITCHTINGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFC2511EBB8F1D006FC276 /* _RA_EVA_4_SWITCHTINGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _RA_EVA_4_SWITCHTINGTests.swift; sourceTree = "<group>"; };
+		91EFC2531EBB8F1D006FC276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EFC2581EBB8F1E006FC276 /* 3RA_EVA_4_SWITCHTINGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3RA_EVA_4_SWITCHTINGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EFC25C1EBB8F1E006FC276 /* _RA_EVA_4_SWITCHTINGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _RA_EVA_4_SWITCHTINGUITests.swift; sourceTree = "<group>"; };
+		91EFC25E1EBB8F1E006FC276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EFC26A1EBB9025006FC276 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		91EFC26C1EBB9052006FC276 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91EFC2361EBB8F1D006FC276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFC24A1EBB8F1D006FC276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFC2551EBB8F1E006FC276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91EFC2301EBB8F1D006FC276 = {
+			isa = PBXGroup;
+			children = (
+				91EFC23B1EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING */,
+				91EFC2501EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTINGTests */,
+				91EFC25B1EBB8F1E006FC276 /* 3RA_EVA_4_SWITCHTINGUITests */,
+				91EFC23A1EBB8F1D006FC276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91EFC23A1EBB8F1D006FC276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91EFC2391EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING.app */,
+				91EFC24D1EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTINGTests.xctest */,
+				91EFC2581EBB8F1E006FC276 /* 3RA_EVA_4_SWITCHTINGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91EFC23B1EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING */ = {
+			isa = PBXGroup;
+			children = (
+				91EFC23C1EBB8F1D006FC276 /* AppDelegate.swift */,
+				91EFC23E1EBB8F1D006FC276 /* ViewController.swift */,
+				91EFC2401EBB8F1D006FC276 /* Main.storyboard */,
+				91EFC2431EBB8F1D006FC276 /* Assets.xcassets */,
+				91EFC2451EBB8F1D006FC276 /* LaunchScreen.storyboard */,
+				91EFC2481EBB8F1D006FC276 /* Info.plist */,
+				91EFC26A1EBB9025006FC276 /* YellowViewController.swift */,
+				91EFC26C1EBB9052006FC276 /* BlueViewController.swift */,
+			);
+			path = 3RA_EVA_4_SWITCHTING;
+			sourceTree = "<group>";
+		};
+		91EFC2501EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTINGTests */ = {
+			isa = PBXGroup;
+			children = (
+				91EFC2511EBB8F1D006FC276 /* _RA_EVA_4_SWITCHTINGTests.swift */,
+				91EFC2531EBB8F1D006FC276 /* Info.plist */,
+			);
+			path = 3RA_EVA_4_SWITCHTINGTests;
+			sourceTree = "<group>";
+		};
+		91EFC25B1EBB8F1E006FC276 /* 3RA_EVA_4_SWITCHTINGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91EFC25C1EBB8F1E006FC276 /* _RA_EVA_4_SWITCHTINGUITests.swift */,
+				91EFC25E1EBB8F1E006FC276 /* Info.plist */,
+			);
+			path = 3RA_EVA_4_SWITCHTINGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91EFC2381EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFC2611EBB8F1E006FC276 /* Build configuration list for PBXNativeTarget "3RA_EVA_4_SWITCHTING" */;
+			buildPhases = (
+				91EFC2351EBB8F1D006FC276 /* Sources */,
+				91EFC2361EBB8F1D006FC276 /* Frameworks */,
+				91EFC2371EBB8F1D006FC276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3RA_EVA_4_SWITCHTING;
+			productName = 3RA_EVA_4_SWITCHTING;
+			productReference = 91EFC2391EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91EFC24C1EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTINGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFC2641EBB8F1E006FC276 /* Build configuration list for PBXNativeTarget "3RA_EVA_4_SWITCHTINGTests" */;
+			buildPhases = (
+				91EFC2491EBB8F1D006FC276 /* Sources */,
+				91EFC24A1EBB8F1D006FC276 /* Frameworks */,
+				91EFC24B1EBB8F1D006FC276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFC24F1EBB8F1D006FC276 /* PBXTargetDependency */,
+			);
+			name = 3RA_EVA_4_SWITCHTINGTests;
+			productName = 3RA_EVA_4_SWITCHTINGTests;
+			productReference = 91EFC24D1EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTINGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91EFC2571EBB8F1E006FC276 /* 3RA_EVA_4_SWITCHTINGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91EFC2671EBB8F1E006FC276 /* Build configuration list for PBXNativeTarget "3RA_EVA_4_SWITCHTINGUITests" */;
+			buildPhases = (
+				91EFC2541EBB8F1E006FC276 /* Sources */,
+				91EFC2551EBB8F1E006FC276 /* Frameworks */,
+				91EFC2561EBB8F1E006FC276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91EFC25A1EBB8F1E006FC276 /* PBXTargetDependency */,
+			);
+			name = 3RA_EVA_4_SWITCHTINGUITests;
+			productName = 3RA_EVA_4_SWITCHTINGUITests;
+			productReference = 91EFC2581EBB8F1E006FC276 /* 3RA_EVA_4_SWITCHTINGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91EFC2311EBB8F1D006FC276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "LUIS FERNANDO";
+				TargetAttributes = {
+					91EFC2381EBB8F1D006FC276 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					91EFC24C1EBB8F1D006FC276 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 91EFC2381EBB8F1D006FC276;
+					};
+					91EFC2571EBB8F1E006FC276 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 91EFC2381EBB8F1D006FC276;
+					};
+				};
+			};
+			buildConfigurationList = 91EFC2341EBB8F1D006FC276 /* Build configuration list for PBXProject "3RA_EVA_4_SWITCHTING" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91EFC2301EBB8F1D006FC276;
+			productRefGroup = 91EFC23A1EBB8F1D006FC276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91EFC2381EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING */,
+				91EFC24C1EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTINGTests */,
+				91EFC2571EBB8F1E006FC276 /* 3RA_EVA_4_SWITCHTINGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91EFC2371EBB8F1D006FC276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFC2471EBB8F1D006FC276 /* LaunchScreen.storyboard in Resources */,
+				91EFC2441EBB8F1D006FC276 /* Assets.xcassets in Resources */,
+				91EFC2421EBB8F1D006FC276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFC24B1EBB8F1D006FC276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFC2561EBB8F1E006FC276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91EFC2351EBB8F1D006FC276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFC23F1EBB8F1D006FC276 /* ViewController.swift in Sources */,
+				91EFC26B1EBB9025006FC276 /* YellowViewController.swift in Sources */,
+				91EFC26D1EBB9052006FC276 /* BlueViewController.swift in Sources */,
+				91EFC23D1EBB8F1D006FC276 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFC2491EBB8F1D006FC276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFC2521EBB8F1D006FC276 /* _RA_EVA_4_SWITCHTINGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EFC2541EBB8F1E006FC276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EFC25D1EBB8F1E006FC276 /* _RA_EVA_4_SWITCHTINGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91EFC24F1EBB8F1D006FC276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFC2381EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING */;
+			targetProxy = 91EFC24E1EBB8F1D006FC276 /* PBXContainerItemProxy */;
+		};
+		91EFC25A1EBB8F1E006FC276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91EFC2381EBB8F1D006FC276 /* 3RA_EVA_4_SWITCHTING */;
+			targetProxy = 91EFC2591EBB8F1E006FC276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91EFC2401EBB8F1D006FC276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91EFC2411EBB8F1D006FC276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91EFC2451EBB8F1D006FC276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91EFC2461EBB8F1D006FC276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91EFC25F1EBB8F1E006FC276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91EFC2601EBB8F1E006FC276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91EFC2621EBB8F1E006FC276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3RA_EVA_4_SWITCHTING/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-4-SWITCHTING";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91EFC2631EBB8F1E006FC276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3RA_EVA_4_SWITCHTING/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-4-SWITCHTING";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91EFC2651EBB8F1E006FC276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3RA_EVA_4_SWITCHTINGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-4-SWITCHTINGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3RA_EVA_4_SWITCHTING.app/3RA_EVA_4_SWITCHTING";
+			};
+			name = Debug;
+		};
+		91EFC2661EBB8F1E006FC276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3RA_EVA_4_SWITCHTINGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-4-SWITCHTINGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3RA_EVA_4_SWITCHTING.app/3RA_EVA_4_SWITCHTING";
+			};
+			name = Release;
+		};
+		91EFC2681EBB8F1E006FC276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3RA_EVA_4_SWITCHTINGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-4-SWITCHTINGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3RA_EVA_4_SWITCHTING;
+			};
+			name = Debug;
+		};
+		91EFC2691EBB8F1E006FC276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 3RA_EVA_4_SWITCHTINGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gallegos.luis.-RA-EVA-4-SWITCHTINGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 3RA_EVA_4_SWITCHTING;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91EFC2341EBB8F1D006FC276 /* Build configuration list for PBXProject "3RA_EVA_4_SWITCHTING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFC25F1EBB8F1E006FC276 /* Debug */,
+				91EFC2601EBB8F1E006FC276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91EFC2611EBB8F1E006FC276 /* Build configuration list for PBXNativeTarget "3RA_EVA_4_SWITCHTING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFC2621EBB8F1E006FC276 /* Debug */,
+				91EFC2631EBB8F1E006FC276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91EFC2641EBB8F1E006FC276 /* Build configuration list for PBXNativeTarget "3RA_EVA_4_SWITCHTINGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFC2651EBB8F1E006FC276 /* Debug */,
+				91EFC2661EBB8F1E006FC276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91EFC2671EBB8F1E006FC276 /* Build configuration list for PBXNativeTarget "3RA_EVA_4_SWITCHTINGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFC2681EBB8F1E006FC276 /* Debug */,
+				91EFC2691EBB8F1E006FC276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91EFC2311EBB8F1D006FC276 /* Project object */;
+}
